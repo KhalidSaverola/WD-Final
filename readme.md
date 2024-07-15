@@ -146,3 +146,5 @@ WD-ProjectName
 | Tutorial | Used it for any needed help for understanding certain codes | https://www.youtube.com/ |
 | Removed BG | Used it to remove background for images | https://www.remove.bg/ |
 | W3schools | Used it for references | https://www.w3schools.com/ |
+| Boxicons | Used it for some icons | https://boxicons.com/ |
+| Favicon | Used it for converting icons | https://favicon.io/ |
