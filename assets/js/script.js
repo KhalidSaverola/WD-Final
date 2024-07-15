@@ -36,7 +36,7 @@ window.onscroll = () => { // when the user scrolls the page
 };
 
 const typed = new Typed('.mul', { // select the class mul
-    strings: [ ' Adventurer',' Entrepreneur'], // array strings
+    strings: [ ' CyberSecurity',' iTamaraw',' Musician',' FreeLancer'], // array strings
     typeSpeed: 100, // typing speed
     backSpeed: 100,
     backDelay: 100,
@@ -54,15 +54,13 @@ moon.onclick = function(){
     if(document.body.classList.contains('dark-theme')){
         moon.classList.remove('bx-moon');
         moon.classList.add('bx-sun');
-        document.querySelector('.h-img img').src = '../img/upp.png'; // Change h-img source to 'upp.png'
-        document.querySelector('.h-img img').style.filter = 'invert(10%)'; // Apply image filter to invert the colors
-        document.querySelector('.h-img img').style.filter = 'brightness(1)'; // Apply image filter to reduce brightness
+        document.querySelector('.h-img img').src = 'assets/img/upp.png'; // Change h-img source to 'upp.png'
         document.querySelector('button.subnavbtn').style= ''; // Change button background color
     }
     else{
         moon.classList.remove('bx-sun');
         moon.classList.add('bx-moon');
-        document.querySelector('.h-img img').src = '../img/homepic.png'; // Change h-img source back to 'homepic (2).png'
+        document.querySelector('.h-img img').src = 'assets/img/homepic.png'; // Change h-img source back to 'homepic (2).png'
         document.querySelector('.h-img img').style.filter = 'none'; // Remove image filter
         document.querySelector('button.subnavbtn').style= 'white'; // Change button background color
     }
